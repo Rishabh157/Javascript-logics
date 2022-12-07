@@ -21,5 +21,5 @@ const getElementsOfParameter = function (array, num) {
 
 let array = ["India", "Argentina", "Portgal", "France", "USA", "England"]
 
-let result = getElementOfNumArray(array, 4)
+let result = getElementsOfParameter(array, 4)
 console.log(result)
