@@ -28,3 +28,14 @@ let arrayOfCountries = ["india", "America", "Caneda", "New-York", "Norway"]
 
 let cloneArray = cloneArrayWithLogic(arrayOfCountries)
 console.log(cloneArray)
+
+// 3. logic
+
+const cloneWittSpreadOp = function(array){
+    let cpArr = [...array]
+    return cpArr;
+}
+
+let result = cloneWittSpreadOp(arrayOfCountries)
+
+console.log(result)
